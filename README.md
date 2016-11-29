@@ -6,5 +6,5 @@ some of the packets will never reach the original ip.
 
 - Coded in python using scapy
 
-What happens is that when you start it running the killer will start collecting a database of all of its possable victims(IPs)
-then once it has collected all of them it will passivly sit and wait until it re
+What happens is that when you start it running the killer will start collecting a database of all of its possable victims (IPs)
+then once it has collected all of them it will passivly sit and wait until it sniffs an arp request then will reply to that arp request with a random 
